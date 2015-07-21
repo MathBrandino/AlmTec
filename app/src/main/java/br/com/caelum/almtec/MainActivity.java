@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+
 public class MainActivity extends AppCompatActivity {
 
     private Button adicionar;
@@ -46,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (!entraValor.getText().toString().trim().isEmpty()) {
                     int valor = Integer.parseInt(entraValor.getText().toString());
+
 
 
                     valores.add(valor);

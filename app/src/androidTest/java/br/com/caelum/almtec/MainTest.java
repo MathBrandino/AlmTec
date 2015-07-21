@@ -7,7 +7,6 @@ import android.support.test.espresso.matcher.ViewMatchers;
 import android.test.ActivityInstrumentationTestCase2;
 
 import org.hamcrest.Matchers;
-import org.junit.Test;
 
 /**
  * Created by matheus on 21/07/15.
